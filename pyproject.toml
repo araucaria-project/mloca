@@ -1,13 +1,13 @@
 [project]
 name = "mloca"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = [
     {name = "MMiirrkk",email = "cot@wp.pl"}
 ]
 license = {text = "Apache 2.0"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "numpy (>=2.4.6,<3.0.0)",
     "scikit-learn (>=1.8.0,<2.0.0)"
