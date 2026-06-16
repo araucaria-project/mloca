@@ -5,7 +5,7 @@ from typing import Optional
 import numpy as np
 
 
-class Model:
+class FocusModel:
 
     def __init__(self, telescope_id: str, models_dir: Optional[str | Path] = None):
         self.model = None
