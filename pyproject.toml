@@ -7,13 +7,18 @@ authors = [
 ]
 license = {text = "Apache 2.0"}
 readme = "README.md"
-packages = [
-    {include = "focus_model"}
-]
 requires-python = ">=3.12"
 dependencies = [
     "numpy (>=2.4.6,<3.0.0)",
     "scikit-learn (>=1.8.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    {include = "mloca"}
+]
+include = [
+    {path = "mloca/focus_model/models/*.pkl", format = ["sdist", "wheel"]}
 ]
 
 
